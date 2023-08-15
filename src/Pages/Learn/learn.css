@@ -1,0 +1,138 @@
+.learn-page {}
+
+.middle-body {
+    /* width: 800px; */
+    display: flex;
+    box-sizing: border-box;
+    padding: 74px 8vw 0 8vw;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px 1px 15px 0px #d6f3ff;
+
+}
+
+.middle-body .header {
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.learn-section .title {
+    font-size: 2.4rem;
+    display: inline-block;
+}
+
+.sort-section {
+    width: 20%;
+    height: 100%;
+}
+
+.content-container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    overflow-y: scroll;
+}
+
+.content-container::-webkit-scrollbar {
+    display: none;
+}
+
+.learn-section {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+/* learn.css */
+
+/* Reset some default styles */
+/* body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+} */
+
+/* Page container styles */
+/* .learn-page {
+    background-color: #f8f8f8;
+    color: #333;
+} */
+
+/* Navbar styles */
+/* .learn-section {
+    padding: 30px;
+}
+
+.middle-body {
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
+/* Header styles */
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Search bar styles */
+/* .sort-section .searchbar {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.sort-section .searchbar:focus {
+    outline: none;
+    border-color: #008CFD;
+    box-shadow: 0 0 0 2px rgba(0, 140, 253, 0.2);
+}
+
+.sort-section .searchbar::placeholder {
+    color: #aaa;
+}  */
+
+/* Video cards styles */
+/* .content-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+} */
+
+/* Footer styles */
+/* Add your custom footer styles here */
+
+/* Additional styles for responsiveness can be added if needed */
