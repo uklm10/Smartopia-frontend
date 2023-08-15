@@ -1,0 +1,24 @@
+.profimg{
+
+    height: 200px;
+    width:200px;
+    border-radius: 100%;
+
+
+}
+.btn{
+
+    background-color:orange;
+    height:50px;
+    width :200px;
+    border-radius: 5%;
+    margin:1px 4px 1px 4px;
+    font-size: large;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: orange;
+    border: 0.5px solid black;
+}
